@@ -1,0 +1,25 @@
+{
+  "name": "t",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --mode development",
+    "format": "prettier --write '**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glslify": "^7.1.1",
+    "glslify-loader": "^2.0.0",
+    "raw-loader": "^4.0.2",
+    "three": "^0.123.0",
+    "three-orbit-controls": "^82.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
